@@ -1,0 +1,5 @@
+{
+  "code": "PAYLOAD_TOO_LARGE",
+  "message": "Image exceeds the 5 MB size limit. Received approximately 6.3 MB (decoded); maximum allowed is 5 MB.",
+  "request_id": "550e8400-e29b-41d4-a716-446655440011"
+}

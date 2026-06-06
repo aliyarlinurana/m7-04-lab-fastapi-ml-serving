@@ -1,0 +1,33 @@
+{
+  "request_id": "550e8400-e29b-41d4-a716-446655440001",
+  "results": [
+    {
+      "id": "img-001",
+      "status": "success",
+      "predictions": [
+        { "label": "safe",        "probability": 0.891 },
+        { "label": "violence",    "probability": 0.044 },
+        { "label": "adult",       "probability": 0.030 },
+        { "label": "hate_speech", "probability": 0.021 },
+        { "label": "self_harm",   "probability": 0.014 }
+      ]
+    },
+    {
+      "id": "img-002",
+      "status": "success",
+      "predictions": [
+        { "label": "safe",    "probability": 0.977 },
+        { "label": "adult",   "probability": 0.013 },
+        { "label": "violence","probability": 0.010 }
+      ]
+    },
+    {
+      "id": "img-003",
+      "status": "error",
+      "error": {
+        "code": "INVALID_IMAGE",
+        "message": "Image could not be decoded; ensure it is a valid JPEG, PNG, or WebP."
+      }
+    }
+  ]
+}

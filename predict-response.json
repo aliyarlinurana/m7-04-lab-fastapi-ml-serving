@@ -1,0 +1,10 @@
+{
+  "request_id": "550e8400-e29b-41d4-a716-446655440000",
+  "predictions": [
+    { "label": "safe",             "probability": 0.912 },
+    { "label": "violence",         "probability": 0.031 },
+    { "label": "adult",            "probability": 0.024 },
+    { "label": "hate_speech",      "probability": 0.018 },
+    { "label": "self_harm",        "probability": 0.015 }
+  ]
+}
